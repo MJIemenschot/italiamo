@@ -1,35 +1,54 @@
 /* ======================================================
    OEFENEN MET CSS SELECTORS
 ========================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
-
-
+#headerImg {
+    width: 100%;
+}
 
 /* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
+.places-to-visit ul li {
+    color: hsl(110, 29%, 52%);
 
+}
 
 
 /* 1.3 Geef de 'span' tag in de footer een beschrijvende class name en maak de lettergrootte kleiner  */
-
-
+.copyright{
+    font-size: 12px;
+}
 
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
 
-
+nav ul li a:link {
+    text-decoration: none;
+    color: hsl(359, 79%, 56%);
+}
+nav ul li a:hover {
+    color: hsl(359, 79%, 30%);
+}
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
-
+a:hover, a:visited {
+    color: seagreen;
+}
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
-
+input[type=submit] {
+    background-color: seagreen;
+}
 
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
-
-
+input[type=text]:focus {
+    display: unset;
+    border: 4px solid dodgerblue;
+}
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
-
-
+h1, h2, h3 {
+    font-family: 'Bree Serif', serif;
+}
