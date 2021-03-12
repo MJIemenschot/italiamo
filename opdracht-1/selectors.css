@@ -51,4 +51,5 @@ input[type=text]:focus {
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
 h1, h2, h3 {
     font-family: 'Bree Serif', serif;
+
 }
