@@ -7,31 +7,35 @@
     flex-wrap: wrap;
     align-content: flex-end;
 }
+
 /* Opdracht 2.2 */
 .two {
     display:flex;
     align-items: center;
     justify-content: space-between;
 }
+
 /* Opdracht 2.3 */
 .three  {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .three li   {
     display: inline;
     list-style: none;
     margin-right: 20px;
 }
+
 /* Opdracht 2.4 */
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
+
 /* Opdracht 2.5 */
 .five{
     display: flex;
@@ -39,6 +43,7 @@ form {
     flex-direction: row;
     width: 100%;
 }
+
 .five article {
     flex-grow: 1;
     flex-shrink: 0;
